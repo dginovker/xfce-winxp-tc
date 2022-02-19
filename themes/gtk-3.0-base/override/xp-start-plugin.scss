@@ -165,6 +165,7 @@ window.csd.xp-start-menu // Specificity hack -_-
         box.xp-start-all-programs
         {
             font-weight: bold;
+            min-height:  initial;
 
             .arrow
             {
