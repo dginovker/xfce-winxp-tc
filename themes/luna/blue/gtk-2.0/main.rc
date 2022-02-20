@@ -1445,8 +1445,8 @@ style "default" {
       function = SHADOW
       state    = ACTIVE
       detail   = "entry"
-      file     = "assets/entry-active.png"
-      border   = {4, 4, 4, 4}
+      file     = "../Resources/entry_borders.png"
+      border   = {2, 2, 2, 2}
       stretch  = TRUE
     }
 
@@ -1454,16 +1454,16 @@ style "default" {
       function = SHADOW
       state    = INSENSITIVE
       detail   = "entry"
-      file     = "assets/entry-insensitive.png"
-      border   = {4, 4, 4, 4}
+      file     = "../Resources/entry_borders.png"
+      border   = {2, 2, 2, 2}
       stretch  = TRUE
     }
 
     image {
       function = SHADOW
       detail   = "entry"
-      file     = "assets/entry.png"
-      border   = {4, 4, 4, 4}
+      file     = "../Resources/entry_borders.png"
+      border   = {2, 2, 2, 2}
       stretch  = TRUE
     }
 
@@ -1471,20 +1471,20 @@ style "default" {
       function = FLAT_BOX
       state    = ACTIVE
       detail   = "entry_bg"
-      file     = "assets/entry-background.png"
+      file     = "../Resources/entry_body.png"
     }
 
     image {
       function = FLAT_BOX
       state    = INSENSITIVE
       detail   = "entry_bg"
-      file     = "assets/entry-background-insensitive.png"
+      file     = "../Resources/entry_body.png"
     }
 
     image {
       function = FLAT_BOX
       detail   = "entry_bg"
-      file     = "assets/entry-background.png"
+      file     = "../Resources/entry_body.png"
     }
     #########
     # Spins #
