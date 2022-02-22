@@ -42,7 +42,7 @@ style "default" {
   GtkButton::inner-border           = {4, 4, 4, 4}
 
   GtkEntry::state-hint = 1
-  GtkEntry::inner-border = {7, 7, 4, 5}
+  GtkEntry::inner-border = {2, 2, 2, 2}
 
   GtkPaned::handle-size = 9
   GtkHPaned::handle-size = 9
