@@ -19,9 +19,9 @@ style "default" {
   GtkToolbar::internal-padding = 4
   GtkToolButton::icon-spacing  = 4
 
-  GtkWidget::tooltip-radius    = 3
-  GtkWidget::tooltip-alpha     = 235
-  GtkWidget::new-tooltip-style = 1 #for compatibility
+  GtkWidget::tooltip-radius    = 0
+  GtkWidget::tooltip-alpha     = 255
+  GtkWidget::new-tooltip-style = 0 #for compatibility
 
   GtkWidget::link-color              = @link_color
   GtkWidget::visited-link-color      = @visited_link_color
