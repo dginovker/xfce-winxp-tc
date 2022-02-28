@@ -1755,16 +1755,8 @@ style "menubar_item" {
   xthickness = 3
   ythickness = 4
 
-  fg[PRELIGHT] = @link_color
-
-  engine "pixmap" {
-    image {
-      function    = BOX
-      state       = PRELIGHT
-      file        = "assets/menubar-item-active.png"
-      border      = {0, 0, 0, 3}
-    }
-  }
+  fg[PRELIGHT] = @selected_fg_color
+  bg[PRELIGHT] = @selected_bg_color
 
 }
 
