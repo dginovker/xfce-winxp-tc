@@ -35,12 +35,12 @@ progressbar
     {
         progress
         {
-            background-image: url("../Resources/progress_horz_chunk.png");
+            background-image: url("../Resources/gtk-3.0/progress_horz_chunk.png");
         }
 
         trough
         {
-            border-image: url("../Resources/progress_horz.png") 3 4 3 4 stretch;
+            border-image: url("../Resources/gtk-3.0/progress_horz.png") 3 4 3 4 stretch;
             border-width: 3px 4px;
         }
     }
@@ -49,12 +49,12 @@ progressbar
     {
         progress
         {
-            background-image: url("../Resources/progress_vert_chunk.png");
+            background-image: url("../Resources/gtk-3.0/progress_vert_chunk.png");
         }
 
         trough
         {
-            border-image: url("../Resources/progress_vert.png") 4 3 4 3 stretch;
+            border-image: url("../Resources/gtk-3.0/progress_vert.png") 4 3 4 3 stretch;
             border-width: 4px 3px;
         }
     }

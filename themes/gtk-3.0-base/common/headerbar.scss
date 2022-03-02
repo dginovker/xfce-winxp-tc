@@ -10,17 +10,17 @@
 %titlebar,
 headerbar
 {
-    background-image:    url("../Resources/headerbar-body.png");
+    background-image:    url("../Resources/gtk-3.0/headerbar-body.png");
     background-size:     100% 100%;
-    border-image:        url("../Resources/headerbar-frame-csd.png") 6 9 3 9 stretch;
+    border-image:        url("../Resources/gtk-3.0/headerbar-frame-csd.png") 6 9 3 9 stretch;
     border-style:        solid;
     border-width:        6px 9px 3px;
     padding:             0 6px;
 
     &:backdrop
     {
-        background-image: url("../Resources/headerbar-body-backdrop.png");
-        border-image:     url("../Resources/headerbar-frame-backdrop-csd.png") 6 9 3 9 stretch;
+        background-image: url("../Resources/gtk-3.0/headerbar-body-backdrop.png");
+        border-image:     url("../Resources/gtk-3.0/headerbar-frame-backdrop-csd.png") 6 9 3 9 stretch;
     }
 
     .title
@@ -169,11 +169,11 @@ headerbar
     {
         &
         {
-            border-image: url("../Resources/headerbar-frame.png") 6 9 3 9 stretch;
+            border-image: url("../Resources/gtk-3.0/headerbar-frame.png") 6 9 3 9 stretch;
             
             &:backdrop
             {
-                border-image: url("../Resources/header-frame-backdrop.png") 6 9 3 9 stretch;
+                border-image: url("../Resources/gtk-3.0/header-frame-backdrop.png") 6 9 3 9 stretch;
             }
         }
     }
@@ -225,87 +225,87 @@ headerbar
      button.flat,
      button.titlebutton
      {
-         background-image:    url("../Resources/caption_button_body.png");
+         background-image:    url("../Resources/gtk-3.0/caption_button_body.png");
          background-position: center;
          background-size:     110% 110%;
-         border-image:        url("../Resources/caption_button_border.png") 3 3 3 3 stretch;
+         border-image:        url("../Resources/gtk-3.0/caption_button_border.png") 3 3 3 3 stretch;
          border-style:        solid;
          border-width:        3px;
          color:               #FFF;
 
          &:focus
          {
-             background-image: url("../Resources/caption_button_body.png");
-             border-image:     url("../Resources/caption_button_border.png") 3 3 3 3 stretch;
+             background-image: url("../Resources/gtk-3.0/caption_button_body.png");
+             border-image:     url("../Resources/gtk-3.0/caption_button_border.png") 3 3 3 3 stretch;
              color:            #FFF;
          }
 
          &:hover
          {
-             background-image: url("../Resources/caption_button_hover_body.png");
-             border-image:     url("../Resources/caption_button_hover_border.png") 3 3 3 3 stretch;
+             background-image: url("../Resources/gtk-3.0/caption_button_hover_body.png");
+             border-image:     url("../Resources/gtk-3.0/caption_button_hover_border.png") 3 3 3 3 stretch;
              color:            #FFF;
          }
 
          &:active
          {
-             background-image: url("../Resources/caption_button_press_body.png");
-             border-image:     url("../Resources/caption_button_press_border.png") 3 3 3 3 stretch;
+             background-image: url("../Resources/gtk-3.0/caption_button_press_body.png");
+             border-image:     url("../Resources/gtk-3.0/caption_button_press_border.png") 3 3 3 3 stretch;
              color:            #78A2D8;
          }
 
          &:checked
          {
-             background-image: url("../Resources/caption_button_press_body.png");
-             border-image:     url("../Resources/caption_button_press_border.png") 3 3 3 3 stretch;
+             background-image: url("../Resources/gtk-3.0/caption_button_press_body.png");
+             border-image:     url("../Resources/gtk-3.0/caption_button_press_border.png") 3 3 3 3 stretch;
              color:            #FFF;
          }
 
          &:disabled
          {
-             background-image: url("../Resources/caption_button_inactive_body.png");
-             border-image:     url("../Resources/caption_button_inactive_border.png") 3 3 3 3 stretch;
+             background-image: url("../Resources/gtk-3.0/caption_button_inactive_body.png");
+             border-image:     url("../Resources/gtk-3.0/caption_button_inactive_border.png") 3 3 3 3 stretch;
              color:            #8C9DE7;
          }
 
          &:backdrop
          {
-             background-image: url("../Resources/caption_button_backdrop_body.png");
-             border-image:     url("../Resources/caption_button_backdrop_border.png") 3 3 3 3 stretch;
+             background-image: url("../Resources/gtk-3.0/caption_button_backdrop_body.png");
+             border-image:     url("../Resources/gtk-3.0/caption_button_backdrop_border.png") 3 3 3 3 stretch;
              color:            #FFF;
 
              &:focus
              {
-                 background-image: url("../Resources/caption_button_backdrop_body.png");
-                 border-image:     url("../Resources/caption_button_backdrop_border.png") 3 3 3 3 stretch;
+                 background-image: url("../Resources/gtk-3.0/caption_button_backdrop_body.png");
+                 border-image:     url("../Resources/gtk-3.0/caption_button_backdrop_border.png") 3 3 3 3 stretch;
                  color:            #FFF;
              }
 
              &:hover
              {
-                 background-image: url("../Resources/caption_button_backdrop_hover_body.png");
-                 border-image:     url("../Resources/caption_button_backdrop_hover_border.png") 3 3 3 3 stretch;
+                 background-image: url("../Resources/gtk-3.0/caption_button_backdrop_hover_body.png");
+                 border-image:     url("../Resources/gtk-3.0/caption_button_backdrop_hover_border.png") 3 3 3 3 stretch;
                  color:            #FFF;
              }
 
              &:active
              {
-                 background-image: url("../Resources/caption_button_backdrop_press_body.png");
-                 border-image:     url("../Resources/caption_button_backdrop_press_border.png") 3 3 3 3 stretch;
+                 background-image: url("../Resources/gtk-3.0/caption_button_backdrop_press_body.png");
+                 border-image:     url("../Resources/gtk-3.0/caption_button_backdrop_press_border.png") 3 3 3 3 stretch;
                  color:            #97B0E2;
              }
 
              &:checked
              {
-                 background-image: url("../Resources/caption_button_backdrop_press_body.png");
-                 border-image:     url("../Resources/caption_button_backdrop_press_border.png") 3 3 3 3 stretch;
+                 background-image: url("../Resources/gtk-3.0/caption_button_backdrop_press_body.png");
+                 border-image:     url("../Resources/gtk-3.0/caption_button_backdrop_press_border.png") 3 3 3 3 stretch;
                  color:            #FFF;
              }
 
              &:disabled
              {
-                 background-image: url("../Resources/caption_button_backdrop_inactive_body.png");
-                 border-image:     url("../Resources/caption_button_backdrop_inactive_border.png") 3 3 3 3 stretch;
+                 background-image: url("../Resources/gtk-3.0/caption_button_backdrop_inactive_body.png");
+                 border-image:     url("../Resources/gtk-3.0/caption_button_backdrop_inactive_border.png") 3 3 3 3 stretch;
                  color:            #919FE6;
              }
          }
@@ -313,61 +313,61 @@ headerbar
 
      button.titlebutton:last-child
      {
-         background-image:    url("../Resources/close_button_body.png");
+         background-image:    url("../Resources/gtk-3.0/close_button_body.png");
          background-position: center;
          background-size:     110% 110%;
-         border-image:        url("../Resources/close_button_border.png") 3 3 3 3 stretch;
+         border-image:        url("../Resources/gtk-3.0/close_button_border.png") 3 3 3 3 stretch;
          border-style:        solid;
          border-width:        3px;
          color:               #FFF;
 
          &:hover
          {
-             background-image: url("../Resources/close_button_hover_body.png");
-             border-image:     url("../Resources/close_button_hover_border.png") 3 3 3 3 stretch;
+             background-image: url("../Resources/gtk-3.0/close_button_hover_body.png");
+             border-image:     url("../Resources/gtk-3.0/close_button_hover_border.png") 3 3 3 3 stretch;
              color:            #FFF;
          }
 
          &:active,
          &:checked
          {
-             background-image: url("../Resources/close_button_press_body.png");
-             border-image:     url("../Resources/close_button_press_border.png") 3 3 3 3 stretch;
+             background-image: url("../Resources/gtk-3.0/close_button_press_body.png");
+             border-image:     url("../Resources/gtk-3.0/close_button_press_border.png") 3 3 3 3 stretch;
              color:            #DF9A88;
          }
 
          &:disabled
          {
-             background-image: url("../Resources/close_button_inactive_body.png");
-             border-image:     url("../Resources/close_button_inactive_border.png") 3 3 3 3 stretch;
+             background-image: url("../Resources/gtk-3.0/close_button_inactive_body.png");
+             border-image:     url("../Resources/gtk-3.0/close_button_inactive_border.png") 3 3 3 3 stretch;
              color:            #9598CC;
          }
 
          &:backdrop
          {
-             background-image: url("../Resources/close_button_backdrop_body.png");
-             border-image:     url("../Resources/close_button_backdrop_border.png") 3 3 3 3 stretch;
+             background-image: url("../Resources/gtk-3.0/close_button_backdrop_body.png");
+             border-image:     url("../Resources/gtk-3.0/close_button_backdrop_border.png") 3 3 3 3 stretch;
              color:            #FFF;
 
              &:hover
              {
-                 background-image: url("../Resources/close_button_backdrop_hover_body.png");
-                 border-image:     url("../Resources/close_button_backdrop_hover_border.png") 3 3 3 3 stretch;
+                 background-image: url("../Resources/gtk-3.0/close_button_backdrop_hover_body.png");
+                 border-image:     url("../Resources/gtk-3.0/close_button_backdrop_hover_border.png") 3 3 3 3 stretch;
                  color:            #FFF;
              }
 
              &:active,
              &:checked
              {
-                 background-image: url("../Resources/close_button_backdrop_press_body.png");
-                 border-image:     url("../Resources/close_button_backdrop_press_border.png") 3 3 3 3 stretch;
+                 background-image: url("../Resources/gtk-3.0/close_button_backdrop_press_body.png");
+                 border-image:     url("../Resources/gtk-3.0/close_button_backdrop_press_border.png") 3 3 3 3 stretch;
                  color:            #CBADBA;
              }
 
              &:disabled
              {
-                 background-image: url("../Resources/close_button_backdrop_inactive_body.png");
-                 border-image:     url("../Resources/close_button_backdrop_inactive_border.png") 3 3 3 3 stretch;
+                 background-image: url("../Resources/gtk-3.0/close_button_backdrop_inactive_body.png");
+                 border-image:     url("../Resources/gtk-3.0/close_button_backdrop_inactive_border.png") 3 3 3 3 stretch;
                  color:            #A0A2D8;
              }
          }

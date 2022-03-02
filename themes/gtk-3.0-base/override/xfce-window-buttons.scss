@@ -21,10 +21,10 @@
 
     button
     {
-        background-image:    url("../Resources/taskband_button_body.png");
+        background-image:    url("../Resources/gtk-3.0/taskband_button_body.png");
         background-position: -2px 0px;
         background-size:     102% 100%;
-        border-image:        url("../Resources/taskband_button.png") 2 2 2 2 stretch;
+        border-image:        url("../Resources/gtk-3.0/taskband_button.png") 2 2 2 2 stretch;
         border-style:        solid;
         border-width:        2px;
         color:               #FFFFFF;
@@ -32,19 +32,19 @@
 
         &:hover
         {
-            background-image: url("../Resources/taskband_button_hover_body.png");
-            border-image:     url("../Resources/taskband_button_hover.png") 2 2 2 2 stretch;
+            background-image: url("../Resources/gtk-3.0/taskband_button_hover_body.png");
+            border-image:     url("../Resources/gtk-3.0/taskband_button_hover.png") 2 2 2 2 stretch;
         }
 
         &:active, &:checked
         {
-            background-image: url("../Resources/taskband_button_press_body.png");
-            border-image:     url("../Resources/taskband_button_press.png") 2 2 2 2 stretch;
+            background-image: url("../Resources/gtk-3.0/taskband_button_press_body.png");
+            border-image:     url("../Resources/gtk-3.0/taskband_button_press.png") 2 2 2 2 stretch;
 
             &:hover
             {
-                background-image: url("../Resources/taskband_button_press_hover_body.png");
-                border-image:     url("../Resources/taskband_button_press_hover.png") 2 2 2 2 stretch;
+                background-image: url("../Resources/gtk-3.0/taskband_button_press_hover_body.png");
+                border-image:     url("../Resources/gtk-3.0/taskband_button_press_hover.png") 2 2 2 2 stretch;
             }
         }
     }

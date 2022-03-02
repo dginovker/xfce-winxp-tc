@@ -9,9 +9,9 @@
 
 button.xp-start-button
 {
-    background-image: url("../Resources/start_button_body.png");
+    background-image: url("../Resources/gtk-3.0/start_button_body.png");
     background-size:  100% 100%;
-    border-image:     url("../Resources/start_button.png") 0 8 0 5 stretch;
+    border-image:     url("../Resources/gtk-3.0/start_button.png") 0 8 0 5 stretch;
     border-style:     solid;
     border-width:     0px 8px 0px 5px;
     color:            #FFF;
@@ -22,20 +22,20 @@ button.xp-start-button
 
     &:hover
     {
-        background-image: url("../Resources/start_button_hover_body.png");
-        border-image:     url("../Resources/start_button_hover.png") 0 8 0 5 stretch;
+        background-image: url("../Resources/gtk-3.0/start_button_hover_body.png");
+        border-image:     url("../Resources/gtk-3.0/start_button_hover.png") 0 8 0 5 stretch;
     }
 
     &:active,
     &:checked
     {
-        background-image: url("../Resources/start_button_press_body.png");
-        border-image:     url("../Resources/start_button_press.png") 0 8 0 5 stretch;
+        background-image: url("../Resources/gtk-3.0/start_button_press_body.png");
+        border-image:     url("../Resources/gtk-3.0/start_button_press.png") 0 8 0 5 stretch;
     }
 
     @at-root .xp-flag
     {
-        background-image:    url("../Resources/start_flag.png");
+        background-image:    url("../Resources/gtk-3.0/start_flag.png");
         background-position: center;
         background-repeat:   no-repeat;
         margin-left:         5px;
@@ -76,10 +76,10 @@ window.csd.xp-start-menu // Specificity hack -_-
 
     @at-root .xp-start-logoffpane
     {
-        background-image:     url("../Resources/start_logoffpane_body.png");
+        background-image:     url("../Resources/gtk-3.0/start_logoffpane_body.png");
         background-position: -2px 0px;
         background-size:      101% 100%;
-        border-image:         url("../Resources/start_logoffpane_border.png") 0 4 0 4 stretch;
+        border-image:         url("../Resources/gtk-3.0/start_logoffpane_border.png") 0 4 0 4 stretch;
         border-style:         solid;
         border-width:         0px 4px;
 
@@ -127,7 +127,7 @@ window.csd.xp-start-menu // Specificity hack -_-
     @at-root .xp-start-places-column
     {
         background:   #D3E5FA;
-        border-image: url("../Resources/start_places_border.png") 3 6 1 1 stretch;
+        border-image: url("../Resources/gtk-3.0/start_places_border.png") 3 6 1 1 stretch;
         border-style: solid;
         border-width: 3px 6px 1px 1px;
         color:        #0A246A;
@@ -156,7 +156,7 @@ window.csd.xp-start-menu // Specificity hack -_-
     @at-root .xp-start-programs-column
     {
         background:   #FFFFFF;
-        border-image: url("../Resources/start_programs_border.png") 3 0 1 2 stretch;
+        border-image: url("../Resources/gtk-3.0/start_programs_border.png") 3 0 1 2 stretch;
         border-style: solid;
         border-width: 3px 0px 1px 2px;
         color:        #373737;
@@ -169,7 +169,7 @@ window.csd.xp-start-menu // Specificity hack -_-
 
             .arrow
             {
-                background-image:    url("../Resources/all_programs_arrow.png");
+                background-image:    url("../Resources/gtk-3.0/all_programs_arrow.png");
                 background-position: right center;
                 background-repeat:   no-repeat;
                 margin-left:         10px;
@@ -178,14 +178,14 @@ window.csd.xp-start-menu // Specificity hack -_-
                 
                 &:hover
                 {
-                    background-image: url("../Resources/all_programs_arrow_hot.png");
+                    background-image: url("../Resources/gtk-3.0/all_programs_arrow_hot.png");
                 }
             }
         }
         
         menu
         {
-            border-image: url("../Resources/start_menu_item.png") 1 1 1 6 stretch;
+            border-image: url("../Resources/gtk-3.0/start_menu_item.png") 1 1 1 6 stretch;
             border-style: solid;
             border-width: 1px 1px 1px 6px;
 
@@ -261,17 +261,17 @@ window.csd.xp-start-menu // Specificity hack -_-
 
     @at-root .xp-start-userpane
     {
-        background-image:     url("../Resources/start_userpane_body.png");
+        background-image:     url("../Resources/gtk-3.0/start_userpane_body.png");
         background-size:      101% 100%;
         background-position: -2px 0px;
-        border-image:         url("../Resources/start_userpane_border.png") 5 6 0 6 stretch;
+        border-image:         url("../Resources/gtk-3.0/start_userpane_border.png") 5 6 0 6 stretch;
         border-style:         solid;
         border-width:         5px 6px 0px;
         min-width:            380px;
 
         box
         {
-            border-image: url("../Resources/user_tile_border.png") 2 5 5 2 stretch;
+            border-image: url("../Resources/gtk-3.0/user_tile_border.png") 2 5 5 2 stretch;
             border-style: solid;
             border-width: 2px 5px 5px 2px;
             margin:       2px 0px 2px 1px;

@@ -25,21 +25,21 @@ notebook
 
                 > tabs > tab
                 {
-                    background-image: url("../Resources/tab_top_body.png");
-                    border-image:     url("../Resources/tab_top_border.png") 5 3 0 3 stretch;
+                    background-image: url("../Resources/gtk-3.0/tab_top_body.png");
+                    border-image:     url("../Resources/gtk-3.0/tab_top_border.png") 5 3 0 3 stretch;
                     border-width:     5px 3px 0px 3px;
                     margin-right:     1px;
                     padding:          0px 5px;
 
                     &:hover:not(:checked)
                     {
-                        background-image: url("../Resources/tab_top_hover_body.png");
-                        border-image:     url("../Resources/tab_top_hover_border.png") 5 3 0 3 stretch;
+                        background-image: url("../Resources/gtk-3.0/tab_top_hover_body.png");
+                        border-image:     url("../Resources/gtk-3.0/tab_top_hover_border.png") 5 3 0 3 stretch;
                     }
                     
                     &:checked
                     {
-                        border-image:      url("../Resources/tab_top_active_border.png") 3 3 0 3 stretch;
+                        border-image:      url("../Resources/gtk-3.0/tab_top_active_border.png") 3 3 0 3 stretch;
                         border-top-width:  3px;
                         margin-bottom:    -1px;
                     }
@@ -52,21 +52,21 @@ notebook
 
                 > tabs > tab
                 {
-                    background-image: url("../Resources/tab_bottom_body.png");
-                    border-image:     url("../Resources/tab_bottom_border.png") 0 3 5 3 stretch;
+                    background-image: url("../Resources/gtk-3.0/tab_bottom_body.png");
+                    border-image:     url("../Resources/gtk-3.0/tab_bottom_border.png") 0 3 5 3 stretch;
                     border-width:     0px 3px 5px 3px;
                     margin-right:     1px;
                     padding:          0px 5px;
 
                     &:hover:not(:checked)
                     {
-                        background-image: url("../Resources/tab_bottom_hover_body.png");
-                        border-image:     url("../Resources/tab_bottom_hover_border.png") 0 3 5 3 stretch;
+                        background-image: url("../Resources/gtk-3.0/tab_bottom_hover_body.png");
+                        border-image:     url("../Resources/gtk-3.0/tab_bottom_hover_border.png") 0 3 5 3 stretch;
                     }
 
                     &:checked
                     {
-                        border-image:         url("../Resources/tab_bottom_active_border.png") 0 3 3 3 stretch;
+                        border-image:         url("../Resources/gtk-3.0/tab_bottom_active_border.png") 0 3 3 3 stretch;
                         border-bottom-width:  3px;
                         margin-top:          -1px;
                         padding-top:          1px;
@@ -80,21 +80,21 @@ notebook
 
                 > tabs > tab
                 {
-                    background-image: url("../Resources/tab_left_body.png");
-                    border-image:     url("../Resources/tab_left_border.png") 3 0 3 5 stretch;
+                    background-image: url("../Resources/gtk-3.0/tab_left_body.png");
+                    border-image:     url("../Resources/gtk-3.0/tab_left_border.png") 3 0 3 5 stretch;
                     border-width:     3px 0px 3px 5px;
                     margin-bottom:    1px;
                     padding:          2px 5px;
 
                     &:hover:not(:checked)
                     {
-                        background-image: url("../Resources/tab_left_hover_body.png");
-                        border-image:     url("../Resources/tab_left_hover_border.png") 3 0 3 5 stretch;
+                        background-image: url("../Resources/gtk-3.0/tab_left_hover_body.png");
+                        border-image:     url("../Resources/gtk-3.0/tab_left_hover_border.png") 3 0 3 5 stretch;
                     }
 
                     &:checked
                     {
-                        border-image:       url("../Resources/tab_left_active_border.png") 3 0 3 3 stretch;
+                        border-image:       url("../Resources/gtk-3.0/tab_left_active_border.png") 3 0 3 3 stretch;
                         border-left-width:  3px;
                         margin-right:      -1px;
                     }
@@ -107,21 +107,21 @@ notebook
 
                 > tabs > tab
                 {
-                    background-image: url("../Resources/tab_right_body.png");
-                    border-image:     url("../Resources/tab_right_border.png") 3 5 3 0 stretch;
+                    background-image: url("../Resources/gtk-3.0/tab_right_body.png");
+                    border-image:     url("../Resources/gtk-3.0/tab_right_border.png") 3 5 3 0 stretch;
                     border-width:     3px 5px 3px 0px;
                     margin-bottom:    1px;
                     padding:          2px 5px;
 
                     &:hover:not(:checked)
                     {
-                        background-image: url("../Resources/tab_right_hover_body.png");
-                        border-image:     url("../Resources/tab_right_hover_border.png") 3 5 3 0 stretch;
+                        background-image: url("../Resources/gtk-3.0/tab_right_hover_body.png");
+                        border-image:     url("../Resources/gtk-3.0/tab_right_hover_border.png") 3 5 3 0 stretch;
                     }
 
                     &:checked
                     {
-                        border-image:        url("../Resources/tab_right_active_border.png") 3 3 3 0 stretch;
+                        border-image:        url("../Resources/gtk-3.0/tab_right_active_border.png") 3 3 3 0 stretch;
                         border-right-width:  3px;
                         margin-left:        -1px;
                         padding-left:        6px;
@@ -175,7 +175,7 @@ notebook
     //
     &.frame
     {
-        border-image: url("../Resources/tab_edge_box.png") 2 4 4 2 stretch;
+        border-image: url("../Resources/gtk-3.0/tab_edge_box.png") 2 4 4 2 stretch;
         border-style: solid;
         border-width: 2px 4px 4px 2px;
 

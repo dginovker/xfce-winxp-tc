@@ -21,7 +21,7 @@ combobox
     //
     button.combo:last-child
     {
-        background-image:    url("../Resources/combobox_button.png");
+        background-image:    url("../Resources/gtk-3.0/combobox_button.png");
         background-position: right;
         background-repeat:   no-repeat;
         background-size:     contain;
@@ -33,17 +33,17 @@ combobox
 
         &:active
         {
-            background-image: url("../Resources/combobox_button_press.png");
+            background-image: url("../Resources/gtk-3.0/combobox_button_press.png");
         }
 
         &:hover
         {
-            background-image: url("../Resources/combobox_button_hover.png");
+            background-image: url("../Resources/gtk-3.0/combobox_button_hover.png");
         }
 
         &:disabled
         {
-            background-image: url("../Resources/combobox_button_inactive.png");
+            background-image: url("../Resources/gtk-3.0/combobox_button_inactive.png");
         }
     }
 

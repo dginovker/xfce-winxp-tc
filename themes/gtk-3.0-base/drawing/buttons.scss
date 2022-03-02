@@ -83,16 +83,16 @@
         //
         // Normal Button
         //
-        background-image: url("../Resources/button_body.png");
-        border-image:     url("../Resources/button.png") 3 3 3 3 stretch;
+        background-image: url("../Resources/gtk-3.0/button_body.png");
+        border-image:     url("../Resources/gtk-3.0/button_border.png") 3 3 3 3 stretch;
     }
     @else if $t == focus
     {
         //
         // Focused Button
         //
-        background-image: url("../Resources/button_body.png");
-        border-image:     url("../Resources/button_active.png") 3 3 3 3 stretch;
+        background-image: url("../Resources/gtk-3.0/button_body.png");
+        border-image:     url("../Resources/gtk-3.0/button_active_border.png") 3 3 3 3 stretch;
     }
     @else if $t == hover     or
              $t == hover-alt or
@@ -101,8 +101,8 @@
         //
         // Hovered Button
         //
-        background-image: url("../Resources/button_body.png");
-        border-image:     url("../Resources/button_hover.png") 3 3 3 3 stretch;
+        background-image: url("../Resources/gtk-3.0/button_body.png");
+        border-image:     url("../Resources/gtk-3.0/button_hover_border.png") 3 3 3 3 stretch;
     }
     @else if $t == active          or
              $t == backdrop-active or
@@ -111,8 +111,8 @@
         //
         // Pushed Button
         //
-        background-image: url("../Resources/button_press_body.png");
-        border-image:     url("../Resources/button_press.png") 3 3 3 3 stretch;
+        background-image: url("../Resources/gtk-3.0/button_press_body.png");
+        border-image:     url("../Resources/gtk-3.0/button_press_border.png") 3 3 3 3 stretch;
     }
     @else if $t == insensitive                 or
              $t == insensitive-active          or
@@ -124,7 +124,7 @@
         // Insensitive Button
         //
         background:   #F5F4EA;
-        border-image: url("../Resources/button_inactive.png") 3 3 3 3 stretch;
+        border-image: url("../Resources/gtk-3.0/button_inactive_border.png") 3 3 3 3 stretch;
         color:        $insensitive_fg_color;
     }
     @else if $t == flat-hover
@@ -132,16 +132,16 @@
         //
         // Hovered or Focused Flat Button
         //
-        background-image: url("../Resources/button_toolbar_hover_body.png");
-        border-image:     url("../Resources/button_toolbar_hover.png") 3 3 3 3 stretch;
+        background-image: url("../Resources/gtk-3.0/button_toolbar_hover_body.png");
+        border-image:     url("../Resources/gtk-3.0/button_toolbar_hover_border.png") 3 3 3 3 stretch;
     }
     @else if $t == flat-active
     {
         //
         // Pushed Flat Button
         //
-        background-image: url("../Resources/button_toolbar_press_body.png");
-        border-image:     url("../Resources/button_toolbar_press.png") 3 3 3 3 stretch;
+        background-image: url("../Resources/gtk-3.0/button_toolbar_press_body.png");
+        border-image:     url("../Resources/gtk-3.0/button_toolbar_press_border.png") 3 3 3 3 stretch;
     }
     @else if $t == flat-insensitive
     {
