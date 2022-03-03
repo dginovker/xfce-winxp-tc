@@ -61,9 +61,7 @@ radiobutton.text-button
 check,
 radio
 {
-    background-position: center;
-    background-repeat:   no-repeat;
-    margin:              0 4px;
+    margin: 0 4px;
     
     &:only-child
     {
@@ -96,61 +94,7 @@ radio
 }
 
 //
-// Special cases (when the widget is inside OSD or a menu item)
-//
-check,
-radio
-{
-    .osd &
-    {
-        @include button(osd);
-        
-        &:hover    { @include button(osd);             }
-        &:active   { @include button(osd-active);      }
-        &:backdrop { @include button(osd-backdrop);    }
-        &:disabled { @include button(osd-insensitive); }
-    }
-    
-    menu menuitem &
-    {
-        margin:     0; // This is a workaround for a menu check/radio size allocation issue
-        
-        &,
-        &:checked,
-        &:indeterminate
-        {
-            // FIXME: Use button reset mixin
-            //
-            &, &:hover, &:disabled
-            { 
-                background-color: transparent;
-                background-image: none;
-                border-color:     currentColor;
-                box-shadow:       none;
-                color:            inherit;
-                min-height:       13px;
-                min-width:        13px;
-                -gtk-icon-shadow: none;
-            }
-        }
-
-        // In menus, use a different check mark
-        //
-        &:checked,
-        &:indeterminate
-        {
-            -gtk-icon-source: url("../Resources/checkbox_check_glyph_menu.png");
-
-            &:hover
-            {
-                -gtk-icon-source: url("../Resources/checkbox_check_glyph_menu_hover.png");
-            }
-        }
-    }
-}
-
-//
-// Inject glyph
+// Check box
 //
 %check,
 check
@@ -219,6 +163,9 @@ check
     }
 }
 
+//
+// Radio button
+//
 %radio,
 radio
 {
@@ -261,6 +208,66 @@ radio
         &:disabled
         {
             -gtk-icon-source: url("../Resources/radio_checked_inactive.png");
+        }
+    }
+}
+
+//
+// Special cases (when the widget is inside OSD or a menu item)
+//
+check,
+radio
+{
+    .osd &
+    {
+        @include button(osd);
+        
+        &:hover    { @include button(osd);             }
+        &:active   { @include button(osd-active);      }
+        &:backdrop { @include button(osd-backdrop);    }
+        &:disabled { @include button(osd-insensitive); }
+    }
+    
+    menu menuitem &
+    {
+        margin: 0px; // This is a workaround for a menu check/radio size allocation issue
+        
+        &,
+        &:checked,
+        &:indeterminate
+        {
+            // FIXME: Use button reset mixin
+            //
+            &, &:hover, &:disabled
+            { 
+                background-color: transparent;
+                background-image: none;
+                border-color:     currentColor;
+                box-shadow:       none;
+                color:            inherit;
+                min-height:       13px;
+                min-width:        13px;
+                -gtk-icon-shadow: none;
+            }
+        }
+
+        // In menus, use a different check mark
+        //
+        &,
+        &:hover
+        {
+            -gtk-icon-source: none;
+        }
+
+        &:checked,
+        &:indeterminate
+        {
+            -gtk-icon-source: url("../Resources/checkbox_check_glyph_menu.png");
+
+            &:hover
+            {
+                -gtk-icon-source: url("../Resources/checkbox_check_glyph_menu_hover.png");
+            }
         }
     }
 }
